@@ -9,6 +9,7 @@
 3. 修改`resources/dbconfig.properties`数据库相关配置
 4. idea中`Project Structure`-`Artifacts`-`WEB-INF`创建`lib`文件夹中右击`Add Copy of`-`Library Files`将所有除了`servlet-api`和`jsp-api`的依赖导入
 5. 使用Tomcat9 启动（如果是7需要将pom.xml中的servlet-api和jsp-api替换成tomcat/lib目录下的）
+6. 查看[测试](#测试)
 
 ## 项目创建
 
@@ -510,7 +511,7 @@ ${ename}
 
 浏览器访问http://localhost:8080/ssm/emp?empno=7369
 
-页面跳转success.jsp，显示ename
+页面跳转success.jsp，显示SMITH
 
 
 
