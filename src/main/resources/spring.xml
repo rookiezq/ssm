@@ -44,6 +44,6 @@
         <!--批量配置映射文件-->
         <property name="basePackage" value="com.rookied.dao"/>
         <!--指定sqlSessionFactoryBeanName-->
-        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactoryBean"/>
     </bean>
 </beans>

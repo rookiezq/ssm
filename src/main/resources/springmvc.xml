@@ -18,9 +18,10 @@
     <mvc:default-servlet-handler/>
     <!--动态资源扫描-->
     <mvc:annotation-driven/>
+    <!--视图处理器-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/page/"/>
-        <property name="suffix" value="*.jsp"/>
+        <property name="suffix" value=".jsp"/>
     </bean>
 
 </beans>
